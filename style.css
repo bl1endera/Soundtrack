@@ -6,7 +6,6 @@
 }
 
 body {
-    /* font-family: 'Poppins', sans-serif; */
     background: #000000;
 }
 
@@ -24,18 +23,17 @@ body {
     justify-content: end;
     align-items: center;
     padding-left: 30px;
-    background: #e27777;
   
 }
-.logo{
-    font-style: 12px;
-    font-weight: 700;
+.logo{  
     gap: 8px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
 }
 .circle{
+    font-size: 12px;
+    font-weight: 700;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -46,95 +44,43 @@ body {
     align-items: center;    
 }
 .soundtrack{
+    font-size: 14px;
+    font-weight: 700;
     display: flex;
     align-items: center;
+    margin-right: 70px;
 }
 .nav{
     display: flex;
-    gap: 30px;
-    list-style-type: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-
-/* .soundtrack {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-right: 70px;
-    margin-left: 10px;
-}
-
-.circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #000;
-}
-.circle-box{
-    font-style: 12px;
-    font-weight: 700;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-top: 3px;
-}
-
-.text-Soundtrack {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 1px;
-}
-
-.box {
-    display: flex;
-    justify-content: space-around;
     gap: 60px;
-    margin-right: auto;
-}
-
-.text-box {
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    color: #333;
-    cursor: pointer;
 }
-
-.Sign-up {
-    font-size: 13px;
-    font-weight: 600;
-    color: #835929;
-    cursor: pointer;
+.nav a{
+    color: #000;
+    text-decoration: none;  
 }
-
-.login-box {
-    width: 160px;
-    height: 100px;
-    background: #F5F2EC;
+.buttons{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 0 50px;
-    margin-left: 50px;
-}
-
-.login {
+    gap: 121px;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #553C16;
-    cursor: pointer;
 }
-
-.nav{
+.button.s{
     display: flex;
-    gap: 30px;
-    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 520px;
 }
-.nav a{
-    text-decoration: none;
-    color: green
-} */
+.button.gray{
+    width: 160px;
+    height: 100px;
+    background: #F5F2EC;
+    border-radius: 0 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
