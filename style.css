@@ -26,7 +26,7 @@ body {
   
 }
 .logo{  
-    gap: 8px;
+    gap: 10px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
 }
 .soundtrack{
     font-size: 14px;
@@ -49,6 +49,7 @@ body {
     display: flex;
     align-items: center;
     margin-right: 70px;
+    letter-spacing: 1px;
 }
 .nav{
     display: flex;
@@ -56,6 +57,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 400;
+    letter-spacing: 0.5px;
 }
 .nav a{
     color: #000;
@@ -63,23 +65,24 @@ body {
 }
 .buttons{
     display: flex;
-    gap: 121px;
+    gap: 60px;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #553C16;
+    letter-spacing: 0.5px;
 }
 .button.s{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 520px;
+    margin-left: 589px; 
 }
 .button.gray{
     width: 160px;
     height: 100px;
     background: #F5F2EC;
-    border-radius: 0 0 0 40%;
+    border-radius: 0 0 0 30%;
     display: flex;
     justify-content: center;
     align-items: center;
