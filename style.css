@@ -87,3 +87,29 @@ body {
     justify-content: center;
     align-items: center;
 }
+.main{
+    position: relative;
+    width: 1360px;
+    height: 900px;
+    background: #c9a500;
+}
+.title{
+    position: absolute;
+    width: 498px;
+    height: 302px;
+    background: #c1e300;
+}
+.email-box{
+    position: absolute;
+    width: 682px;
+    height: 123px;
+    background: #c1e3b4;  
+}
+.photos{
+    position: absolute;
+    width: 1220px;
+    height: 890px;
+    background: #c166b4;
+    top: 0;
+    right: 0;
+}
